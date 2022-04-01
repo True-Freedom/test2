@@ -11,7 +11,8 @@ int main()
 
 	std::string str;
 	cin >> str;
-	cout << "input string: " << str << endl;
+	if (str[0] != '#')
+		cout << "input string: " << str << endl;
 
 	cout << "Bye..." << endl;
 	return 0;
