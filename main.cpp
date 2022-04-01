@@ -13,6 +13,7 @@ int main()
 	cin >> str;
 	if (str[0] != '#')
 		cout << "input string: " << str << endl;
+	cout << "done!" << endl;
 
 	cout << "Bye..." << endl;
 	return 0;
