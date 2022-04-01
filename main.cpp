@@ -1,7 +1,13 @@
 #include <iostream>
 
+using std::cin;
+using std::cout;
+using std::endl;
+
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
+	cout << "Hello, World!" << endl;
+	cin.get();
+	cout << "Bye..." << endl;
 	return 0;
 }
