@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "functional"
 
 using std::cin;
 using std::cout;
@@ -14,6 +15,12 @@ int main()
 	if (str[0] != '#')
 		cout << "input string: " << str << endl;
 	cout << "done!" << endl;
+
+	std::function f([](){
+		cout << "manjaro" << endl;
+	});
+
+	f();
 
 	cout << "Bye..." << endl;
 	return 0;
