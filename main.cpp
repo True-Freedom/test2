@@ -17,7 +17,7 @@ int main()
 	cout << "done!" << endl;
 
 	std::function f([](){
-		cout << "manjaro" << endl;
+		cout << "\033[0;31mmanjaro" << endl;
 	});
 
 	f();
